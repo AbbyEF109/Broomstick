@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287ABF341D2E927E001E31F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF331D2E927E001E31F0 /* AppDelegate.swift */; };
+		287ABF361D2E927E001E31F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF351D2E927E001E31F0 /* ViewController.swift */; };
+		287ABF391D2E927E001E31F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF371D2E927E001E31F0 /* Main.storyboard */; };
+		287ABF3C1D2E927E001E31F0 /* Broomstick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF3A1D2E927E001E31F0 /* Broomstick.xcdatamodeld */; };
+		287ABF3E1D2E927E001E31F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF3D1D2E927E001E31F0 /* Assets.xcassets */; };
+		287ABF411D2E927E001E31F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF3F1D2E927E001E31F0 /* LaunchScreen.storyboard */; };
+		287ABF4C1D2E927F001E31F0 /* BroomstickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF4B1D2E927F001E31F0 /* BroomstickTests.swift */; };
+		287ABF571D2E927F001E31F0 /* BroomstickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF561D2E927F001E31F0 /* BroomstickUITests.swift */; };
+		B9A8C37271911E6375528101 /* Pods_Broomstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E4CF37FFB3092B25D7D53 /* Pods_Broomstick.framework */; };
+		CF887199EB3750902CE1207B /* Pods_BroomstickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188A20FF6973BFD808B52B25 /* Pods_BroomstickTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287ABF481D2E927F001E31F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287ABF281D2E927E001E31F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287ABF2F1D2E927E001E31F0;
+			remoteInfo = Broomstick;
+		};
+		287ABF531D2E927F001E31F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287ABF281D2E927E001E31F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287ABF2F1D2E927E001E31F0;
+			remoteInfo = Broomstick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroomstickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		188A20FF6973BFD808B52B25 /* Pods_BroomstickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroomstickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		287ABF301D2E927E001E31F0 /* Broomstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Broomstick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287ABF331D2E927E001E31F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		287ABF351D2E927E001E31F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		287ABF381D2E927E001E31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287ABF3B1D2E927E001E31F0 /* Broomstick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Broomstick.xcdatamodel; sourceTree = "<group>"; };
+		287ABF3D1D2E927E001E31F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287ABF401D2E927E001E31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		287ABF421D2E927E001E31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287ABF471D2E927F001E31F0 /* BroomstickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomstickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287ABF4B1D2E927F001E31F0 /* BroomstickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomstickTests.swift; sourceTree = "<group>"; };
+		287ABF4D1D2E927F001E31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287ABF521D2E927F001E31F0 /* BroomstickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomstickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		287ABF561D2E927F001E31F0 /* BroomstickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomstickUITests.swift; sourceTree = "<group>"; };
+		287ABF581D2E927F001E31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroomstickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests.release.xcconfig"; sourceTree = "<group>"; };
+		597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Broomstick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick.release.xcconfig"; sourceTree = "<group>"; };
+		DB8E4CF37FFB3092B25D7D53 /* Pods_Broomstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Broomstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Broomstick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287ABF2D1D2E927E001E31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A8C37271911E6375528101 /* Pods_Broomstick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF441D2E927F001E31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF887199EB3750902CE1207B /* Pods_BroomstickTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF4F1D2E927F001E31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		287ABF271D2E927E001E31F0 = {
+			isa = PBXGroup;
+			children = (
+				287ABF321D2E927E001E31F0 /* Broomstick */,
+				287ABF4A1D2E927F001E31F0 /* BroomstickTests */,
+				287ABF551D2E927F001E31F0 /* BroomstickUITests */,
+				287ABF311D2E927E001E31F0 /* Products */,
+				FDD2FEE83CB28C255E081477 /* Pods */,
+				88BAA4ECF8A5699F727F9B48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		287ABF311D2E927E001E31F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287ABF301D2E927E001E31F0 /* Broomstick.app */,
+				287ABF471D2E927F001E31F0 /* BroomstickTests.xctest */,
+				287ABF521D2E927F001E31F0 /* BroomstickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287ABF321D2E927E001E31F0 /* Broomstick */ = {
+			isa = PBXGroup;
+			children = (
+				287ABF331D2E927E001E31F0 /* AppDelegate.swift */,
+				287ABF351D2E927E001E31F0 /* ViewController.swift */,
+				287ABF371D2E927E001E31F0 /* Main.storyboard */,
+				287ABF3D1D2E927E001E31F0 /* Assets.xcassets */,
+				287ABF3F1D2E927E001E31F0 /* LaunchScreen.storyboard */,
+				287ABF421D2E927E001E31F0 /* Info.plist */,
+				287ABF3A1D2E927E001E31F0 /* Broomstick.xcdatamodeld */,
+			);
+			path = Broomstick;
+			sourceTree = "<group>";
+		};
+		287ABF4A1D2E927F001E31F0 /* BroomstickTests */ = {
+			isa = PBXGroup;
+			children = (
+				287ABF4B1D2E927F001E31F0 /* BroomstickTests.swift */,
+				287ABF4D1D2E927F001E31F0 /* Info.plist */,
+			);
+			path = BroomstickTests;
+			sourceTree = "<group>";
+		};
+		287ABF551D2E927F001E31F0 /* BroomstickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				287ABF561D2E927F001E31F0 /* BroomstickUITests.swift */,
+				287ABF581D2E927F001E31F0 /* Info.plist */,
+			);
+			path = BroomstickUITests;
+			sourceTree = "<group>";
+		};
+		88BAA4ECF8A5699F727F9B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB8E4CF37FFB3092B25D7D53 /* Pods_Broomstick.framework */,
+				188A20FF6973BFD808B52B25 /* Pods_BroomstickTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDD2FEE83CB28C255E081477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */,
+				597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */,
+				01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */,
+				3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287ABF2F1D2E927E001E31F0 /* Broomstick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287ABF5B1D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "Broomstick" */;
+			buildPhases = (
+				59E39DE4F9BAA48F31FD7F94 /* [CP] Check Pods Manifest.lock */,
+				287ABF2C1D2E927E001E31F0 /* Sources */,
+				287ABF2D1D2E927E001E31F0 /* Frameworks */,
+				287ABF2E1D2E927E001E31F0 /* Resources */,
+				FAC8312A49CBFB1B4A4CEBFA /* [CP] Embed Pods Frameworks */,
+				856A4CDF4BD849BB5FB2A3D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Broomstick;
+			productName = Broomstick;
+			productReference = 287ABF301D2E927E001E31F0 /* Broomstick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287ABF461D2E927F001E31F0 /* BroomstickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287ABF5E1D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "BroomstickTests" */;
+			buildPhases = (
+				7DF34844E15E4D9B3D844C8F /* [CP] Check Pods Manifest.lock */,
+				287ABF431D2E927F001E31F0 /* Sources */,
+				287ABF441D2E927F001E31F0 /* Frameworks */,
+				287ABF451D2E927F001E31F0 /* Resources */,
+				1013B39E4082B4F12F76A112 /* [CP] Embed Pods Frameworks */,
+				DCDA240255D1ED4FCE07BBC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287ABF491D2E927F001E31F0 /* PBXTargetDependency */,
+			);
+			name = BroomstickTests;
+			productName = BroomstickTests;
+			productReference = 287ABF471D2E927F001E31F0 /* BroomstickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		287ABF511D2E927F001E31F0 /* BroomstickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287ABF611D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "BroomstickUITests" */;
+			buildPhases = (
+				287ABF4E1D2E927F001E31F0 /* Sources */,
+				287ABF4F1D2E927F001E31F0 /* Frameworks */,
+				287ABF501D2E927F001E31F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287ABF541D2E927F001E31F0 /* PBXTargetDependency */,
+			);
+			name = BroomstickUITests;
+			productName = BroomstickUITests;
+			productReference = 287ABF521D2E927F001E31F0 /* BroomstickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287ABF281D2E927E001E31F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AbbyEF109;
+				TargetAttributes = {
+					287ABF2F1D2E927E001E31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					287ABF461D2E927F001E31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 287ABF2F1D2E927E001E31F0;
+					};
+					287ABF511D2E927F001E31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 287ABF2F1D2E927E001E31F0;
+					};
+				};
+			};
+			buildConfigurationList = 287ABF2B1D2E927E001E31F0 /* Build configuration list for PBXProject "Broomstick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287ABF271D2E927E001E31F0;
+			productRefGroup = 287ABF311D2E927E001E31F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287ABF2F1D2E927E001E31F0 /* Broomstick */,
+				287ABF461D2E927F001E31F0 /* BroomstickTests */,
+				287ABF511D2E927F001E31F0 /* BroomstickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287ABF2E1D2E927E001E31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287ABF411D2E927E001E31F0 /* LaunchScreen.storyboard in Resources */,
+				287ABF3E1D2E927E001E31F0 /* Assets.xcassets in Resources */,
+				287ABF391D2E927E001E31F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF451D2E927F001E31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF501D2E927F001E31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1013B39E4082B4F12F76A112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59E39DE4F9BAA48F31FD7F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF34844E15E4D9B3D844C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		856A4CDF4BD849BB5FB2A3D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCDA240255D1ED4FCE07BBC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC8312A49CBFB1B4A4CEBFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287ABF2C1D2E927E001E31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287ABF361D2E927E001E31F0 /* ViewController.swift in Sources */,
+				287ABF341D2E927E001E31F0 /* AppDelegate.swift in Sources */,
+				287ABF3C1D2E927E001E31F0 /* Broomstick.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF431D2E927F001E31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287ABF4C1D2E927F001E31F0 /* BroomstickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287ABF4E1D2E927F001E31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287ABF571D2E927F001E31F0 /* BroomstickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287ABF491D2E927F001E31F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287ABF2F1D2E927E001E31F0 /* Broomstick */;
+			targetProxy = 287ABF481D2E927F001E31F0 /* PBXContainerItemProxy */;
+		};
+		287ABF541D2E927F001E31F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287ABF2F1D2E927E001E31F0 /* Broomstick */;
+			targetProxy = 287ABF531D2E927F001E31F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		287ABF371D2E927E001E31F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287ABF381D2E927E001E31F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287ABF3F1D2E927E001E31F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287ABF401D2E927E001E31F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287ABF591D2E927F001E31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		287ABF5A1D2E927F001E31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287ABF5C1D2E927F001E31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Broomstick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.Broomstick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		287ABF5D1D2E927F001E31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Broomstick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.Broomstick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		287ABF5F1D2E927F001E31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BroomstickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.BroomstickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Broomstick.app/Broomstick";
+			};
+			name = Debug;
+		};
+		287ABF601D2E927F001E31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BroomstickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.BroomstickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Broomstick.app/Broomstick";
+			};
+			name = Release;
+		};
+		287ABF621D2E927F001E31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BroomstickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.BroomstickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Broomstick;
+			};
+			name = Debug;
+		};
+		287ABF631D2E927F001E31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BroomstickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.BroomstickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Broomstick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287ABF2B1D2E927E001E31F0 /* Build configuration list for PBXProject "Broomstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287ABF591D2E927F001E31F0 /* Debug */,
+				287ABF5A1D2E927F001E31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287ABF5B1D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "Broomstick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287ABF5C1D2E927F001E31F0 /* Debug */,
+				287ABF5D1D2E927F001E31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287ABF5E1D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "BroomstickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287ABF5F1D2E927F001E31F0 /* Debug */,
+				287ABF601D2E927F001E31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287ABF611D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "BroomstickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287ABF621D2E927F001E31F0 /* Debug */,
+				287ABF631D2E927F001E31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		287ABF3A1D2E927E001E31F0 /* Broomstick.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				287ABF3B1D2E927E001E31F0 /* Broomstick.xcdatamodel */,
+			);
+			currentVersion = 287ABF3B1D2E927E001E31F0 /* Broomstick.xcdatamodel */;
+			path = Broomstick.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 287ABF281D2E927E001E31F0 /* Project object */;
+}

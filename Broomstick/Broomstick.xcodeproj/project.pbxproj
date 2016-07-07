@@ -15,7 +15,8 @@
 		287ABF411D2E927E001E31F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF3F1D2E927E001E31F0 /* LaunchScreen.storyboard */; };
 		287ABF4C1D2E927F001E31F0 /* BroomstickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF4B1D2E927F001E31F0 /* BroomstickTests.swift */; };
 		287ABF571D2E927F001E31F0 /* BroomstickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ABF561D2E927F001E31F0 /* BroomstickUITests.swift */; };
-		B9A8C37271911E6375528101 /* Pods_Broomstick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E4CF37FFB3092B25D7D53 /* Pods_Broomstick.framework */; };
+		287ABF661D2EAA02001E31F0 /* Broom.png in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF641D2EAA02001E31F0 /* Broom.png */; };
+		287ABF671D2EAA02001E31F0 /* BroomCropped.png in Resources */ = {isa = PBXBuildFile; fileRef = 287ABF651D2EAA02001E31F0 /* BroomCropped.png */; };
 		CF887199EB3750902CE1207B /* Pods_BroomstickTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188A20FF6973BFD808B52B25 /* Pods_BroomstickTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroomstickTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests.debug.xcconfig"; sourceTree = "<group>"; };
 		188A20FF6973BFD808B52B25 /* Pods_BroomstickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BroomstickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		287ABF301D2E927E001E31F0 /* Broomstick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Broomstick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287ABF331D2E927E001E31F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,10 +53,9 @@
 		287ABF521D2E927F001E31F0 /* BroomstickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroomstickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		287ABF561D2E927F001E31F0 /* BroomstickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroomstickUITests.swift; sourceTree = "<group>"; };
 		287ABF581D2E927F001E31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BroomstickTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests.release.xcconfig"; sourceTree = "<group>"; };
-		597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Broomstick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick.release.xcconfig"; sourceTree = "<group>"; };
+		287ABF641D2EAA02001E31F0 /* Broom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Broom.png; sourceTree = "<group>"; };
+		287ABF651D2EAA02001E31F0 /* BroomCropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BroomCropped.png; sourceTree = "<group>"; };
 		DB8E4CF37FFB3092B25D7D53 /* Pods_Broomstick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Broomstick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Broomstick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9A8C37271911E6375528101 /* Pods_Broomstick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +91,6 @@
 				287ABF4A1D2E927F001E31F0 /* BroomstickTests */,
 				287ABF551D2E927F001E31F0 /* BroomstickUITests */,
 				287ABF311D2E927E001E31F0 /* Products */,
-				FDD2FEE83CB28C255E081477 /* Pods */,
 				88BAA4ECF8A5699F727F9B48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +112,8 @@
 				287ABF351D2E927E001E31F0 /* ViewController.swift */,
 				287ABF371D2E927E001E31F0 /* Main.storyboard */,
 				287ABF3D1D2E927E001E31F0 /* Assets.xcassets */,
+				287ABF641D2EAA02001E31F0 /* Broom.png */,
+				287ABF651D2EAA02001E31F0 /* BroomCropped.png */,
 				287ABF3F1D2E927E001E31F0 /* LaunchScreen.storyboard */,
 				287ABF421D2E927E001E31F0 /* Info.plist */,
 				287ABF3A1D2E927E001E31F0 /* Broomstick.xcdatamodeld */,
@@ -149,17 +148,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDD2FEE83CB28C255E081477 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */,
-				597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */,
-				01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */,
-				3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,12 +155,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 287ABF5B1D2E927F001E31F0 /* Build configuration list for PBXNativeTarget "Broomstick" */;
 			buildPhases = (
-				59E39DE4F9BAA48F31FD7F94 /* [CP] Check Pods Manifest.lock */,
 				287ABF2C1D2E927E001E31F0 /* Sources */,
 				287ABF2D1D2E927E001E31F0 /* Frameworks */,
 				287ABF2E1D2E927E001E31F0 /* Resources */,
-				FAC8312A49CBFB1B4A4CEBFA /* [CP] Embed Pods Frameworks */,
-				856A4CDF4BD849BB5FB2A3D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +219,7 @@
 				TargetAttributes = {
 					287ABF2F1D2E927E001E31F0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6A5M9B69YM;
 					};
 					287ABF461D2E927F001E31F0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +259,8 @@
 				287ABF411D2E927E001E31F0 /* LaunchScreen.storyboard in Resources */,
 				287ABF3E1D2E927E001E31F0 /* Assets.xcassets in Resources */,
 				287ABF391D2E927E001E31F0 /* Main.storyboard in Resources */,
+				287ABF671D2EAA02001E31F0 /* BroomCropped.png in Resources */,
+				287ABF661D2EAA02001E31F0 /* Broom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,21 +296,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		59E39DE4F9BAA48F31FD7F94 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		7DF34844E15E4D9B3D844C8F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,21 +311,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		856A4CDF4BD849BB5FB2A3D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DCDA240255D1ED4FCE07BBC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,21 +324,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BroomstickTests/Pods-BroomstickTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FAC8312A49CBFB1B4A4CEBFA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Broomstick/Pods-Broomstick-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -532,31 +475,36 @@
 		};
 		287ABF5C1D2E927F001E31F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB788D76CC7A5CE9F0F76673 /* Pods-Broomstick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Broomstick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.Broomstick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		287ABF5D1D2E927F001E31F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 597EF9E9BEB62200FA58B03C /* Pods-Broomstick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Broomstick/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wordpress.abbyapps.Broomstick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		287ABF5F1D2E927F001E31F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01927B6A88BCABF70A57634B /* Pods-BroomstickTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BroomstickTests/Info.plist;
@@ -569,7 +517,6 @@
 		};
 		287ABF601D2E927F001E31F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA5024BFEA191438C783A90 /* Pods-BroomstickTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BroomstickTests/Info.plist;

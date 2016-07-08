@@ -17,19 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="BroomCropped" translatesAutoresizingMaskIntoConstraints="NO" id="vOe-UF-67m">
-                                <rect key="frame" x="283" y="1" width="34" height="599"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loopable Sky 2" translatesAutoresizingMaskIntoConstraints="NO" id="xHh-ka-Ll3">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vOe-UF-67m" secondAttribute="bottom" id="FcY-Ov-MTW"/>
-                            <constraint firstItem="vOe-UF-67m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ggp-ru-xAK"/>
-                            <constraint firstItem="vOe-UF-67m" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pgk-Ko-lFk"/>
+                            <constraint firstItem="xHh-ka-Ll3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Oih-IR-eMg"/>
+                            <constraint firstItem="xHh-ka-Ll3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PZC-vs-w6Y"/>
+                            <constraint firstItem="xHh-ka-Ll3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="nJS-i3-Hlq"/>
+                            <constraint firstItem="xHh-ka-Ll3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="t9G-hG-Asv"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="broomstickView" destination="8bC-Xf-vdC" id="wQh-FC-s80"/>
+                        <outlet property="LoopSky2" destination="xHh-ka-Ll3" id="ljC-2j-dcc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -38,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BroomCropped" width="34" height="247"/>
+        <image name="Loopable Sky 2" width="449" height="596"/>
     </resources>
 </document>
